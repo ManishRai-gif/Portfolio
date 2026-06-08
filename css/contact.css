@@ -1,0 +1,62 @@
+/* ═══════════════════════════════════════
+   contact.css
+   ═══════════════════════════════════════ */
+
+.contact-section { padding-bottom: 5rem; }
+
+.contact-card {
+  padding: 2rem;
+}
+
+.contact-heading {
+  font-family: var(--font-heading);
+  font-size: clamp(0.7rem, 2.5vw, 1.25rem);
+  margin-bottom: 1.5rem;
+  color: #f4f4f5;
+}
+
+.contact-sub {
+  font-family: var(--font-body);
+  margin-bottom: 2rem;
+  color: #a1a1aa;
+  font-size: 0.9rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-family: var(--font-heading);
+  font-size: 0.55rem;
+  transition: transform 0.1s ease;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  transform: translate(4px, 4px);
+}
+
+.btn-github {
+  background: #f4f4f5;
+  color: #000000;
+  box-shadow: 4px 4px 0px 0px rgba(255,255,255,0.2);
+}
+
+.btn-linkedin {
+  background: #0077b5;
+  color: #ffffff;
+  box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.5);
+}
+
+.btn-email {
+  background: #f44336;
+  color: #ffffff;
+  box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.5);
+}

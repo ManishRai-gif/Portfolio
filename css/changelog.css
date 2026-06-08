@@ -1,0 +1,61 @@
+/* ═══════════════════════════════════════
+   changelog.css
+   ═══════════════════════════════════════ */
+
+.changelog-line {
+  border-left: 4px solid #000000;
+  margin-left: 1rem;
+}
+
+html[data-theme="dark"] .changelog-line {
+  border-left-color: #ffffff;
+}
+
+.cl-item {
+  position: relative;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+}
+
+.cl-dot {
+  position: absolute;
+  left: -0.75rem;
+  top: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  background: #000000;
+  border: 2px solid #000000;
+}
+
+html[data-theme="dark"] .cl-dot {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+
+.cl-year {
+  font-family: var(--font-heading);
+  font-size: 0.6rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+html[data-theme="dark"] .cl-year { color: #a1a1aa; }
+
+.cl-title {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  margin-bottom: 0.25rem;
+  color: var(--fg);
+}
+
+html[data-theme="dark"] .cl-title { color: #71717a; }
+
+.cl-desc {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+html[data-theme="dark"] .cl-desc { color: #a1a1aa; }

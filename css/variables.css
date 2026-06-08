@@ -1,0 +1,42 @@
+/* ═══════════════════════════════════════
+   variables.css — Design Tokens
+   Mirrors globals.css exactly
+   ═══════════════════════════════════════ */
+
+:root {
+  --font-heading: "Press Start 2P", system-ui;
+  --font-body:    "IBM Plex Mono", monospace;
+
+  --shadow-pixel:       4px 4px 0px 0px rgba(0,0,0,1);
+  --shadow-pixel-hover: 6px 6px 0px 0px rgba(0,0,0,1);
+  --shadow-pixel-white: 4px 4px 0px 0px rgba(255,255,255,1);
+  --shadow-pixel-lg:   12px 12px 0px 0px rgba(0,0,0,1);
+  --shadow-pixel-sm:    2px 2px 0px 0px rgba(0,0,0,1);
+
+  /* Light theme (default) */
+  --bg:        #f4f4f5;
+  --fg:        #09090b;
+  --bg-card:   #ffffff;
+  --bg-zinc2:  #e4e4e7;
+  --bg-zinc3:  #d4d4d8;
+  --border:    #000000;
+  --muted:     #71717a;
+  --muted2:    #52525b;
+  --zinc7:     #3f3f46;
+  --zinc8:     #27272a;
+  --zinc9:     #18181b;
+}
+
+html[data-theme="dark"] {
+  --bg:        #09090b;
+  --fg:        #f4f4f5;
+  --bg-card:   #18181b;
+  --bg-zinc2:  #27272a;
+  --bg-zinc3:  #3f3f46;
+  --border:    #000000;
+  --muted:     #a1a1aa;
+  --muted2:    #71717a;
+  --zinc7:     #3f3f46;
+  --zinc8:     #27272a;
+  --zinc9:     #18181b;
+}

@@ -1,0 +1,126 @@
+/* ═══════════════════════════════════════
+   reset.css — Base Reset & Global Styles
+   ═══════════════════════════════════════ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+h1, h2, h3, .font-heading {
+  font-family: var(--font-heading);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font-body);
+  background: none;
+  border: none;
+}
+
+ul { list-style: none; }
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 12px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border: 3px solid var(--bg);
+}
+
+/* ── Selection ── */
+::selection {
+  background: #71717a;
+  color: #ffffff;
+}
+
+/* ── Layout ── */
+.main-content {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.section { width: 100%; }
+
+/* ── Pixel Card base ── */
+.pixel-card {
+  border: 4px solid var(--border);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-pixel);
+}
+
+.pixel-card-dark {
+  border: 4px solid #000000;
+  background: #18181b;
+  color: #f4f4f5;
+  box-shadow: var(--shadow-pixel-lg);
+}
+
+/* ── Section Heading ── */
+.section-heading {
+  font-family: var(--font-heading);
+  font-size: clamp(0.75rem, 2.5vw, 1.25rem);
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.heading-num {
+  background: var(--fg);
+  color: var(--bg);
+  padding: 2px 8px;
+  font-family: var(--font-heading);
+  font-size: inherit;
+}
+
+/* ── Pixel Button ── */
+.pixel-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 4px solid #000000;
+  font-family: var(--font-heading);
+  font-size: 0.6rem;
+  box-shadow: var(--shadow-pixel);
+  background: var(--bg-card);
+  color: var(--fg);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  cursor: pointer;
+}
+
+.pixel-btn:hover {
+  transform: scale(1.05) translateY(-1px);
+}
+
+.pixel-btn:active {
+  transform: translateY(1px);
+  box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+}

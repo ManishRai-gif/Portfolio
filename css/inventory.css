@@ -1,0 +1,62 @@
+/* ═══════════════════════════════════════
+   inventory.css
+   ═══════════════════════════════════════ */
+
+.inventory-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 480px)  { .inventory-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 768px)  { .inventory-grid { grid-template-columns: repeat(6, 1fr); } }
+
+.inv-item {
+  aspect-ratio: 1;
+  border: 4px solid #000000;
+  background: var(--bg-zinc2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  text-align: center;
+  box-shadow: var(--shadow-pixel);
+  transition: transform 0.15s ease, background 0.15s ease;
+  cursor: default;
+}
+
+.inv-item:hover {
+  transform: translateY(-5px);
+  background: var(--bg-zinc3);
+}
+
+html[data-theme="dark"] .inv-item {
+  background: #27272a;
+}
+
+html[data-theme="dark"] .inv-item:hover {
+  background: #3f3f46;
+}
+
+/* SVG icon inside each item */
+.inv-item svg, .inv-item img {
+  width: 26px;
+  height: 26px;
+  margin-bottom: 0.5rem;
+  transition: transform 0.15s ease;
+  color: var(--fg);
+}
+
+.inv-item:hover svg,
+.inv-item:hover img {
+  transform: scale(1.1);
+}
+
+.inv-name {
+  font-family: var(--font-heading);
+  font-size: 0.45rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: var(--fg);
+}

@@ -1,0 +1,12 @@
+/* ═══════════════════════════════════════
+   footer.css
+   ═══════════════════════════════════════ */
+
+.footer {
+  border-top: 4px solid #000000;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: 0.6rem;
+  color: #71717a;
+}
