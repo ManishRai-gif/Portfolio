@@ -24,7 +24,7 @@ const DATA = {
       github: "https://github.com/ManishRai-gif/Ecommerce-",
       live:   "https://ecommerce-lake-ten-34.vercel.app/",
       status: "live",
-      image:  "https://img.sanishtech.com/u/a134cdbf7b8db06a9bd0c4633b131b12.png",
+      image:  "https://img.sanishtech.com/u/76e7a2fa3af0acaac90db9013cbb30e4.png",
     },
     {
       id: "03",
@@ -35,7 +35,7 @@ const DATA = {
       github: "https://github.com/ManishRai-gif/IBM-project",
       live:   "https://manishrai-gif.github.io/IBM-project/",
       status: "live",
-      image:  "https://img.sanishtech.com/u/e2d60c3dad34fe877add7945f7cf062a.png",
+      image:  "https://img.sanishtech.com/u/a11691ebca1bccf2d78d15118fe32d48.png",
     },
     {
       id: "04",
