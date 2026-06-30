@@ -14,7 +14,7 @@ const DATA = {
       github: "https://github.com/ManishRai-gif/coding_platflorm1",
       live:   "https://code-ai-henna.vercel.app/",
       status: "live",
-      image:  "https://img.sanishtech.com/u/50e612b21ccc18043fd20ff6200722df.png",
+      image:  "https://img.sanishtech.com/u/875ab35161ff9568a341759b31d6930b.png",
     },
     {
       id: "02",
@@ -24,7 +24,7 @@ const DATA = {
       github: "https://github.com/ManishRai-gif/Ecommerce-",
       live:   "https://ecommerce-lake-ten-34.vercel.app/",
       status: "live",
-      image:  "https://img.sanishtech.com/u/1f35bad3949c5fd61ed52feb3256b3b2.png",
+      image:  "https://img.sanishtech.com/u/093471a8dc3bf9f5d0752f00e2730480.png",
     },
     {
       id: "03",
@@ -35,7 +35,7 @@ const DATA = {
       github: "https://github.com/ManishRai-gif/IBM-project",
       live:   "https://manishrai-gif.github.io/IBM-project/",
       status: "live",
-      image:  "https://img.sanishtech.com/u/179c7d14120f73fb7658a50407d4670a.png",
+      image:  "https://img.sanishtech.com/u/6fda0b50b6d9ac26c4d85e30c30a7ae7.png",
     },
     {
       id: "04",
@@ -45,7 +45,7 @@ const DATA = {
       github: "https://github.com/ManishRai-gif/RIFT2025_RIPPLE",
       live:   "https://rift-2025-ripple.vercel.app/",
       status: "live",
-      image:  "https://img.sanishtech.com/u/a95e3633be18135a69b80147a766a379.png",
+      image:  "https://img.sanishtech.com/u/5273d6801a75b06fc632c97f3746f8fd.png",
     },
   ],
 
